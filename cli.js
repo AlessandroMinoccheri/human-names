@@ -20,4 +20,5 @@ var cli = meow({
     ].join('\n')
 });
 
-console.log(cli.flags.all ? humanNames.all.join('\n') : humanNames.random());
+var type = cli.flags.type || 'all';
+console.log(cli.flags.all ? humanNames[type].join('\n') : humanNames[type + 'Random']());
