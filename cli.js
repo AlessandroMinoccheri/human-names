@@ -9,7 +9,7 @@ var cli = meow({
         '  $ human-names',
         '  John',
         '',
-        '  $ dog-names --all --type male',
+        '  $ human-names --all --type male',
         '  John',
         '  Bart',
         '  ...',
