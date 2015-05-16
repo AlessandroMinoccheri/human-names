@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "AlessandroMinoccheri/human-names",
   "bin": {
-    "dog-names": "cli.js"
+    "human-names": "cli.js"
   },
   "author": {
     "name": "Alessandro Minoccheri",
