@@ -1,6 +1,5 @@
 # human-names [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
 
-# human-names
 Get popular human names
 
 To create this repository I have forked this project and make some edit:
