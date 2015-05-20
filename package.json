@@ -22,7 +22,9 @@
     "index.js",
     "cli.js",
     "female-human-names-en.json",
-    "male-human-names-en.json"
+    "male-human-names-en.json",
+    "female-human-names-it.json",
+    "male-human-names-it.json"
   ],
   "keywords": [
     "cli-app",
