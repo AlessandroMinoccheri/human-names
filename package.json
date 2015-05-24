@@ -24,7 +24,9 @@
     "female-human-names-en.json",
     "male-human-names-en.json",
     "female-human-names-it.json",
-    "male-human-names-it.json"
+    "male-human-names-it.json",
+    "female-human-names-fr.json",
+    "male-human-names-fr.json"
   ],
   "keywords": [
     "cli-app",
