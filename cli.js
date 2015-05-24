@@ -30,4 +30,4 @@ var cli = meow({
 
 var type = cli.flags.type || 'all';
 var lang = cli.flags.lang || 'En';
-console.log(cli.flags.all ? humanNames[type].join('\n') : humanNames[type + 'Random' + lang.capitalize()]());
+console.log(cli.flags.all ? humanNames[type + lang.capitalize()].join('\n') : humanNames[type + 'Random' + lang.capitalize()]());

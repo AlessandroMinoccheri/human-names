@@ -13,15 +13,21 @@ var maleHumanNamesFr = require('./male-human-names-fr.json');
 var allHumanNamesFr = [];
 
 femaleHumanNamesEn.forEach(function (el, i) {
-    allHumanNamesEn.push(el, maleHumanNamesEn[i]);
+    if((maleHumanNamesEn[i] != undefined) && (maleHumanNamesEn[i] != 'undefined')){
+        allHumanNamesEn.push(el, maleHumanNamesEn[i]);
+    }
 });
 
 femaleHumanNamesIt.forEach(function (el, i) {
-    allHumanNamesIt.push(el, maleHumanNamesIt[i]);
+    if((maleHumanNamesIt[i] != undefined) && (maleHumanNamesIt[i] != 'undefined')){
+        allHumanNamesIt.push(el, maleHumanNamesIt[i]);
+    }
 });
 
 femaleHumanNamesFr.forEach(function (el, i) {
-    allHumanNamesFr.push(el, maleHumanNamesFr[i]);
+    if((maleHumanNamesFr[i] != undefined) && (maleHumanNamesFr[i] != 'undefined')){
+        allHumanNamesFr.push(el, maleHumanNamesFr[i]);
+    }
 });
 
 exports.femaleEn = femaleHumanNamesEn;
