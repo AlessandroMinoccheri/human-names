@@ -32,5 +32,15 @@ test(function (t) {
     t.assert(humanNames.allRandomFr() !== humanNames.allRandomFr());
     t.assert(humanNames.allFr[0] === 'Aaliyah');
     t.assert(humanNames.allFr[1] === 'Aaron');
+
+    t.assert(humanNames.femaleDe.length > 0);
+    t.assert(humanNames.maleDe.length > 0);
+    t.assert(humanNames.allDe.length > 0);
+    t.assert(humanNames.femaleRandomDe());
+    t.assert(humanNames.maleRandomDe());
+    t.assert(humanNames.allRandomDe());
+    t.assert(humanNames.allRandomDe() !== humanNames.allRandomDe());
+    t.assert(humanNames.allDe[0] === 'Alina');
+    t.assert(humanNames.allDe[1] === 'Alexander');
     t.end();
 });
