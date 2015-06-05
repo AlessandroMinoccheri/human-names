@@ -1,6 +1,6 @@
-# human-names v1.0.4 [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
+# human-names v1.0.5 [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
 
-Get popular human names in english, italian, french or deutch
+Get popular human names in english, italian, french, deutch or spanish
 
 To create this repository I have forked this project and make some edit:
 
@@ -90,7 +90,7 @@ $ human-names --help
   Options
     --all   Get all names instead of a random name
     --type  Type of name: female|male|all  Default: all
-    --lang  lang of name: en|it|fr|de  Default: en
+    --lang  lang of name: en|it|fr|de|es  Default: en
 ```
 
 ## License
