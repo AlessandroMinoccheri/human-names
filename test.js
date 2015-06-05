@@ -43,4 +43,15 @@ test(function (t) {
     t.assert(humanNames.allDe[0] === 'Alina');
     t.assert(humanNames.allDe[1] === 'Alexander');
     t.end();
+
+    t.assert(humanNames.femaleEs.length > 0);
+    t.assert(humanNames.maleEs.length > 0);
+    t.assert(humanNames.allEs.length > 0);
+    t.assert(humanNames.femaleRandomEs());
+    t.assert(humanNames.maleRandomEs());
+    t.assert(humanNames.allRandomEs());
+    t.assert(humanNames.allRandomEs() !== humanNames.allRandomEs());
+    t.assert(humanNames.allEs[0] === 'Abigail');
+    t.assert(humanNames.allEs[1] === 'Aarón');
+    t.end();
 });
