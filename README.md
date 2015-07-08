@@ -1,6 +1,6 @@
 # human-names v1.0.5 [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
 
-Get popular human names in english, italian, french, deutch or spanish
+Get popular human english, italian, french, deutch or spanish names.
 
 To create this repository I have forked this project and make some edit:
 
