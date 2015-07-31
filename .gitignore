@@ -24,3 +24,6 @@ build/Release
 
 # Dependency directory
 node_modules
+
+._.DS_Store
+._DS_Store
