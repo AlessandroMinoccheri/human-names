@@ -70,6 +70,10 @@ exports.femaleEs = femaleHumanNamesEs;
 exports.maleEs = maleHumanNamesEs;
 exports.allEs = allHumanNamesEs;
 
+exports.femaleRandom = uniqueRandomArray(femaleHumanNamesEn);
+exports.maleRandom = uniqueRandomArray(maleHumanNamesEn);
+exports.allRandom = uniqueRandomArray(allHumanNamesEn);
+
 exports.femaleRandomEn = uniqueRandomArray(femaleHumanNamesEn);
 exports.maleRandomEn = uniqueRandomArray(maleHumanNamesEn);
 exports.allRandomEn = uniqueRandomArray(allHumanNamesEn);
