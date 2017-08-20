@@ -24,7 +24,7 @@ var cli = meow({
         'Options',
         '  --all   Get all names instead of a random name',
         '  --type  Type of name: female|male|all  Default: all',
-        '  --lang  lang of name: en|it|fr|de|es  Default: en'
+        '  --lang  lang of name: en|it|fr|de|es|nl  Default: en'
     ].join('\n')
 });
 
