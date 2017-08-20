@@ -54,4 +54,15 @@ test(function (t) {
     t.assert(humanNames.allEs[0] === 'Abigail');
     t.assert(humanNames.allEs[1] === 'Aarón');
     t.end();
+
+    t.assert(humanNames.femaleNl.length > 0);
+    t.assert(humanNames.maleNl.length > 0);
+    t.assert(humanNames.allNl.length > 0);
+    t.assert(humanNames.femaleRandomNl());
+    t.assert(humanNames.maleRandomNl());
+    t.assert(humanNames.allRandomNl());
+    t.assert(humanNames.allRandomNl() !== humanNames.allRandomNl());
+    t.assert(humanNames.allNl[0] === 'Aafje');
+    t.assert(humanNames.allNl[1] === 'Aad');
+    t.end();
 });

@@ -20,6 +20,10 @@ var femaleHumanNamesEs = require('./female-human-names-es.json');
 var maleHumanNamesEs = require('./male-human-names-es.json');
 var allHumanNamesEs = [];
 
+var femaleHumanNamesNl = require('./female-human-names-nl.json');
+var maleHumanNamesNl = require('./male-human-names-nl.json');
+var allHumanNamesNl = [];
+
 femaleHumanNamesEn.forEach(function (el, i) {
     if((maleHumanNamesEn[i] != undefined) && (maleHumanNamesEn[i] != 'undefined')){
         allHumanNamesEn.push(el, maleHumanNamesEn[i]);
@@ -50,6 +54,12 @@ femaleHumanNamesEs.forEach(function (el, i) {
     }
 });
 
+femaleHumanNamesNl.forEach(function (el, i) {
+    if((maleHumanNamesNl[i] != undefined) && (maleHumanNamesNl[i] != 'undefined')){
+        allHumanNamesNl.push(el, maleHumanNamesNl[i]);
+    }
+});
+
 exports.femaleEn = femaleHumanNamesEn;
 exports.maleEn = maleHumanNamesEn;
 exports.allEn = allHumanNamesEn;
@@ -69,6 +79,10 @@ exports.allDe = allHumanNamesDe;
 exports.femaleEs = femaleHumanNamesEs;
 exports.maleEs = maleHumanNamesEs;
 exports.allEs = allHumanNamesEs;
+
+exports.femaleNl = femaleHumanNamesNl;
+exports.maleNl = maleHumanNamesNl;
+exports.allNl = allHumanNamesNl;
 
 exports.femaleRandom = uniqueRandomArray(femaleHumanNamesEn);
 exports.maleRandom = uniqueRandomArray(maleHumanNamesEn);
@@ -93,3 +107,7 @@ exports.allRandomDe = uniqueRandomArray(allHumanNamesDe);
 exports.femaleRandomEs = uniqueRandomArray(femaleHumanNamesEs);
 exports.maleRandomEs = uniqueRandomArray(maleHumanNamesEs);
 exports.allRandomEs = uniqueRandomArray(allHumanNamesEs);
+
+exports.femaleRandomNl = uniqueRandomArray(femaleHumanNamesNl);
+exports.maleRandomNl = uniqueRandomArray(maleHumanNamesNl);
+exports.allRandomNl = uniqueRandomArray(allHumanNamesNl);
