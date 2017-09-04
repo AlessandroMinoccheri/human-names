@@ -1,27 +1,27 @@
 'use strict';
 var uniqueRandomArray = require('unique-random-array');
-var femaleHumanNamesEn = require('./female-human-names-en.json');
-var maleHumanNamesEn = require('./male-human-names-en.json');
+var femaleHumanNamesEn = require('./data/female-human-names-en.json');
+var maleHumanNamesEn = require('./data/male-human-names-en.json');
 var allHumanNamesEn = [];
 
-var femaleHumanNamesIt = require('./female-human-names-it.json');
-var maleHumanNamesIt = require('./male-human-names-it.json');
+var femaleHumanNamesIt = require('./data/female-human-names-it.json');
+var maleHumanNamesIt = require('./data/male-human-names-it.json');
 var allHumanNamesIt = [];
 
-var femaleHumanNamesFr = require('./female-human-names-fr.json');
-var maleHumanNamesFr = require('./male-human-names-fr.json');
+var femaleHumanNamesFr = require('./data/female-human-names-fr.json');
+var maleHumanNamesFr = require('./data/male-human-names-fr.json');
 var allHumanNamesFr = [];
 
-var femaleHumanNamesDe = require('./female-human-names-de.json');
-var maleHumanNamesDe = require('./male-human-names-de.json');
+var femaleHumanNamesDe = require('./data/female-human-names-de.json');
+var maleHumanNamesDe = require('./data/male-human-names-de.json');
 var allHumanNamesDe = [];
 
-var femaleHumanNamesEs = require('./female-human-names-es.json');
-var maleHumanNamesEs = require('./male-human-names-es.json');
+var femaleHumanNamesEs = require('./data/female-human-names-es.json');
+var maleHumanNamesEs = require('./data/male-human-names-es.json');
 var allHumanNamesEs = [];
 
-var femaleHumanNamesNl = require('./female-human-names-nl.json');
-var maleHumanNamesNl = require('./male-human-names-nl.json');
+var femaleHumanNamesNl = require('./data/female-human-names-nl.json');
+var maleHumanNamesNl = require('./data/male-human-names-nl.json');
 var allHumanNamesNl = [];
 
 femaleHumanNamesEn.forEach(function (el, i) {
