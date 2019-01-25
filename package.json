@@ -21,18 +21,7 @@
   "files": [
     "index.js",
     "cli.js",
-    "female-human-names-en.json",
-    "male-human-names-en.json",
-    "female-human-names-it.json",
-    "male-human-names-it.json",
-    "female-human-names-fr.json",
-    "male-human-names-fr.json",
-    "female-human-names-de.json",
-    "male-human-names-de.json",
-    "female-human-names-es.json",
-    "male-human-names-es.json",
-    "female-human-names-nl.json",
-    "male-human-names-nl.json"
+    "data"
   ],
   "keywords": [
     "cli-app",
