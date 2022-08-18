@@ -1,4 +1,4 @@
-# human-names v1.0.11 [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
+# human-names v1.0.12 [![Build Status](https://travis-ci.org/AlessandroMinoccheri/human-names.svg?branch=master)](https://travis-ci.org/AlessandroMinoccheri/human-names)
 
 Get popular human english, italian, french, deutch, spanish or dutch names.
 
