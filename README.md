@@ -23,7 +23,7 @@ $ npm install --save human-names
 ## Usage
 
 ```js
-var humanNames = require('human-names');
+const humanNames = require('human-names');
 
 humanNames.femaleRandom();
 //=> Lucy

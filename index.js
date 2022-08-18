@@ -1,28 +1,28 @@
 'use strict';
-var uniqueRandomArray = require('unique-random-array');
-var femaleHumanNamesEn = require('./data/female-human-names-en.json');
-var maleHumanNamesEn = require('./data/male-human-names-en.json');
-var allHumanNamesEn = [];
+const uniqueRandomArray = require('unique-random-array');
+const femaleHumanNamesEn = require('./data/female-human-names-en.json');
+const maleHumanNamesEn = require('./data/male-human-names-en.json');
+let allHumanNamesEn = [];
 
-var femaleHumanNamesIt = require('./data/female-human-names-it.json');
-var maleHumanNamesIt = require('./data/male-human-names-it.json');
-var allHumanNamesIt = [];
+const femaleHumanNamesIt = require('./data/female-human-names-it.json');
+const maleHumanNamesIt = require('./data/male-human-names-it.json');
+let allHumanNamesIt = [];
 
-var femaleHumanNamesFr = require('./data/female-human-names-fr.json');
-var maleHumanNamesFr = require('./data/male-human-names-fr.json');
-var allHumanNamesFr = [];
+const femaleHumanNamesFr = require('./data/female-human-names-fr.json');
+const maleHumanNamesFr = require('./data/male-human-names-fr.json');
+let allHumanNamesFr = [];
 
-var femaleHumanNamesDe = require('./data/female-human-names-de.json');
-var maleHumanNamesDe = require('./data/male-human-names-de.json');
-var allHumanNamesDe = [];
+const femaleHumanNamesDe = require('./data/female-human-names-de.json');
+const maleHumanNamesDe = require('./data/male-human-names-de.json');
+let allHumanNamesDe = [];
 
-var femaleHumanNamesEs = require('./data/female-human-names-es.json');
-var maleHumanNamesEs = require('./data/male-human-names-es.json');
-var allHumanNamesEs = [];
+const femaleHumanNamesEs = require('./data/female-human-names-es.json');
+const maleHumanNamesEs = require('./data/male-human-names-es.json');
+let allHumanNamesEs = [];
 
-var femaleHumanNamesNl = require('./data/female-human-names-nl.json');
-var maleHumanNamesNl = require('./data/male-human-names-nl.json');
-var allHumanNamesNl = [];
+const femaleHumanNamesNl = require('./data/female-human-names-nl.json');
+const maleHumanNamesNl = require('./data/male-human-names-nl.json');
+let allHumanNamesNl = [];
 
 femaleHumanNamesEn.forEach(function (el, i) {
     if((maleHumanNamesEn[i] != undefined) && (maleHumanNamesEn[i] != 'undefined')){

@@ -5,10 +5,10 @@ String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
-var meow = require('meow');
-var humanNames = require('./');
+const meow = require('meow');
+const humanNames = require('./');
 
-var cli = meow({
+const cli = meow({
     help: [
         'Examples',
         '  $ human-names',
@@ -28,6 +28,6 @@ var cli = meow({
     ].join('\n')
 });
 
-var type = cli.flags.type || 'all';
-var lang = cli.flags.lang || 'En';
+const type = cli.flags.type || 'all';
+const lang = cli.flags.lang || 'En';
 console.log(cli.flags.all ? humanNames[type + lang.capitalize()].join('\n') : humanNames[type + 'Random' + lang.capitalize()]());

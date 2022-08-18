@@ -1,6 +1,6 @@
 'use strict';
-var test = require('ava');
-var humanNames = require('./');
+const test = require('ava');
+const humanNames = require('./');
 
 test(function (t) {
     t.assert(humanNames.femaleEn.length > 0);
